@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Kranti</string>
-    <string name="capture">Capture Issue Image</string>
-    <string name="issue_title">title</string>
-    <string name="issue_description">description</string>
-    <string name="issue_location">location</string>
-    <string name="issue_image_url">imageUrl</string>
-</resources>
