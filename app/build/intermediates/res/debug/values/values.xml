@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/vidhithakrar/androidbootcamp/Kranti-Android/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Kranti</string>
+    <string name="capture">Capture Issue Image</string>
+    <string name="issue_description">description</string>
+    <string name="issue_image_url">imageUrl</string>
+    <string name="issue_location">location</string>
+    <string name="issue_title">title</string>
+</resources>

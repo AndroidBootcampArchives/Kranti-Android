@@ -1,0 +1,1 @@
+/Users/vidhithakrar/androidbootcamp/Kranti-Android/app/build/intermediates/classes/debug
