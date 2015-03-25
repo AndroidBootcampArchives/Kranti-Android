@@ -10,3 +10,10 @@ out
 /out
 .DS_Store
 *.patch
+test/*.iml
+*.gradle
+/app/build/
+.gradle/
+build/*
+*.txt
+
