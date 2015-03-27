@@ -5,7 +5,22 @@
               android:background="#ccc"
               android:layout_height="fill_parent" >
 
-    <EditText
+  <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/captureButton"
+    android:layout_gravity="center"
+    android:text="Capture"
+    android:onClick="captureIssueImage"/>
+
+  <ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/capturedImage"
+    android:layout_gravity="center"
+  />
+
+  <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/titleText" android:layout_gravity="left|center_vertical" android:hint="Title"
