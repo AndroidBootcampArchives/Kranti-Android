@@ -10,6 +10,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import java.util.List;
+
+import model.Issue;
 import repository.IssueRepository;
 
 public class CaptureIssueActivity extends Activity {
@@ -45,6 +48,11 @@ public class CaptureIssueActivity extends Activity {
       String issueTitle =  title.getText().toString();
       String issueDescription =  description.getText().toString();
       issueRepository.createIssue(issueTitle,issueDescription);
+
+      List<Issue> issues = issueRepository.getIssues();
+      for (Issue issue : issues) {
+        System.out.println("issueTitle = " + issue.getTitle() + "issueDescription = " + issue.getDescription());
+      }
       finish();
     }
 

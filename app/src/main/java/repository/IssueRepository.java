@@ -17,6 +17,7 @@ public class IssueRepository {
         Issue issue = new Issue(title,description);
         dataStorage.store(issue);
     }
-//    public List<Issue> getIssues() {
-//    }
+    public List<Issue> getIssues() {
+      return dataStorage.getAllIssues();
+    }
 }
